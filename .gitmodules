@@ -19,3 +19,6 @@
 [submodule "vendor/doctrine"]
 	path = vendor/doctrine
 	url = https://github.com/doctrine/doctrine2.git
+[submodule "vendor/zend"]
+	path = vendor/zend
+	url = https://github.com/zendframework/zf2.git
