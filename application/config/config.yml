@@ -1,0 +1,8 @@
+app.config:
+  router: { resource: "%kernel.root_dir%/config/routing.yml" }
+  templating: []
+
+zend.config:
+  logger:
+    priority: 2
+    path: %kernel.root_dir%/logs/%kernel.environment%.log
