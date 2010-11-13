@@ -1,0 +1,3 @@
+mongo_admin:
+  resource: MongoAdminBundle/Resources/config/routing.yml
+  prefix: admin

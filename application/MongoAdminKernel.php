@@ -19,6 +19,8 @@ class MongoAdminKernel extends Kernel {
 			new Symfony\Bundle\TwigBundle\TwigBundle(),
 			new Symfony\Bundle\DoctrineMongoDBBundle\DoctrineMongoDBBundle(),
 			new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle(),
+
+			new Bundle\MongoAdminBundle\MongoAdminBundle(),
 		);
 	}
 
