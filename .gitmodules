@@ -1,0 +1,9 @@
+[submodule "src/Bundle/MongoAdminBundle"]
+	path = src/Bundle/MongoAdminBundle
+	url = git@github.com:steves/MongoAdminBundle.git
+[submodule "vendor/mongodb-odm"]
+	path = vendor/mongodb-odm
+	url = git@github.com:steves/mongodb-odm.git
+[submodule "vendor/symfony"]
+	path = vendor/symfony
+	url = git@github.com:steves/symfony.git
