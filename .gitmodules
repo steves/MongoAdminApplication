@@ -4,9 +4,6 @@
 [submodule "vendor/mongodb-odm"]
 	path = vendor/mongodb-odm
 	url = git@github.com:steves/mongodb-odm.git
-[submodule "vendor/symfony"]
-	path = vendor/symfony
-	url = git@github.com:steves/symfony.git
 [submodule "vendor/twig"]
 	path = vendor/twig
 	url = git@github.com:steves/Twig.git
