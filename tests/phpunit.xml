@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<phpunit colors="true" bootstrap="./bootstrap.php">
+	<testsuite name="Test Suite">
+		<directory suffix=".php">../src/Bundle/*/Tests</directory>
+	</testsuite>
+
+	<filter>
+		<whitelist>
+			<directory suffix=".php">../src/Bundle</directory>
+			<exclude>
+				<directory suffix=".php">../src/Bundle/*/Resources</directory>
+				<directory suffix=".php">../src/Bundle/*/Tests</directory>
+			</exclude>
+		</whitelist>
+	</filter>
+</phpunit>
