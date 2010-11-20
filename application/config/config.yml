@@ -22,6 +22,8 @@ doctrine_odm.mongodb:
   document_managers:
     default:
       connection: mongodb
+    connTwo:
+      connection: mongodb
   connections:
     mongodb:
       server: localhost:27017/mongo_admin
