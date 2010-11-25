@@ -9,21 +9,7 @@ zend.config:
     priority: 2
     path: %kernel.root_dir%/logs/%kernel.environment%.log
 
-mongo_admin.config: ~
-
-doctrine_odm.mongodb:
-  auto_generate_proxy_classes: true
-  default_document_manager: default
-  default_connection: mongodb
-  cache_driver: array
-  metadata_cache_driver: array
-  default_database: mongo_admin
-  proxy_namespace: Proxies
-  document_managers:
-    default:
-      connection: mongodb
-    connTwo:
-      connection: mongodb
-  connections:
-    mongodb:
-      server: localhost:27017/mongo_admin
+mongo_admin.config:
+  servers:
+    serverOne: localhost:27017
+    serverTwo: localhost:27017
