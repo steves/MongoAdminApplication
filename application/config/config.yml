@@ -11,5 +11,5 @@ zend.config:
 
 mongo_admin.config:
   servers:
-    serverOne: localhost:27017
-    serverTwo: localhost:27017
+    server_one: localhost:27017
+    server_two: localhost:27017
